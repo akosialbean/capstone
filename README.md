@@ -62,12 +62,12 @@ For common problems or issues, please refer to the project's documentation or re
 
 ## Authors
 
-* Your Name
-* Email: your@email.com
-* GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)
-* Partner's Name
+* Ritz Carl Feliciano
+* Email: rc.feliciano013097@gmail.com
+* GitHub: [HexeCalibre](https://github.com/HexeCalibre)
+* Alvin Castor
 * Email: partner@email.com
-* GitHub: [PartnerGitHubUsername](https://github.com/PartnerGitHubUsername)
+* GitHub: [akosialbean](https://github.com/akosialbean)
 
 ## Version History
 

@@ -1,4 +1,4 @@
-import { Button, Form, Container, Col, Card } from "react-bootstrap";
+import { Button, Form, Container, Card } from "react-bootstrap";
 import { useState } from "react";
 
 const Login = () => {
@@ -11,11 +11,11 @@ const Login = () => {
   };
 
   return (
-    <Container>
-      <Card>
-        <Card.Header>Sign In</Card.Header>
-        <Card.Body>
-          <Col>
+    <>
+      <Container>
+        <Card>
+          <Card.Header>Sign In</Card.Header>
+          <Card.Body>
             <Form>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Username</Form.Label>
@@ -35,19 +35,19 @@ const Login = () => {
                   required
                 />
               </Form.Group>
-              <Form.Check 
-              type="checkbox" 
-              label="Show Password"
-              onChange={togglePasswordVisibility} 
+              <Form.Check
+                type="checkbox"
+                label="Show Password"
+                onChange={togglePasswordVisibility}
               />
             </Form>
             <Button variant="primary" type="submit">
               Login
             </Button>
-          </Col>
-        </Card.Body>
-      </Card>
-    </Container>
+          </Card.Body>
+        </Card>
+      </Container>
+    </>
   );
 };
 

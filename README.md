@@ -6,15 +6,17 @@ IT Helpdesk Inventory and Ticketing System
 
 This project aims to create an Inventory System with an integrated Ticketing System for an IT Helpdesk using the MERN (MongoDB, Express, React, Node.js) stack. The system will allow IT personnel to manage inventory, track assets, and efficiently handle user support requests through a web-based interface. Material UI will be used as the CSS framework to ensure an attractive and user-friendly design.
 
+<hr>
+
 ## Getting Started
 
 ### Dependencies
 
 * Node.js
 * MongoDB
-* React
-* Express
-* Material UI
+* React.js
+* Express.js
+* React Bootstrap
 * Other libraries and dependencies as needed
 
 ### Installing
@@ -55,7 +57,6 @@ cd client
 npm start
 ```
 
-
 ## Help
 
 For common problems or issues, please refer to the project's documentation or reach out to the project maintainers.
@@ -84,6 +85,28 @@ This project is licensed under the [MIT License](LICENSE.md) - see the LICENSE.m
 ## Acknowledgments
 
 Inspiration, code snippets, and resources:
+
+• MERN Stack reference
+* [MongoDB CheatSheet](https://www.mongodb.com/developer/products/mongodb/cheat-sheet/?fbclid=IwAR0Ct6vRHBkyI4ETeACmP88hAvl2AHCTZAOuOlE0T6HBIPixmNF6pfZNIUw)
+* [w3schools MongoDB](https://www.w3schools.com/mongodb/index.php)
+  
+// Insert ExpressJS here
+* [React](https://react.dev/)
+* [w3schools React.js](https://www.w3schools.com/react/default.asp)
+* [Node.js](https://nodejs.org/en/docs)
+* [w3schools Node.js](https://www.w3schools.com/nodejs/default.asp)
+  
+•  File Structure Approach 
+
+* [MERN Stack Project Structure: Best Practices](https://dev.to/kingsley/mern-stack-project-structure-best-practices-2adk?fbclid=IwAR3_xXXS86XnKdQxjZFf6pMlwN0k1e-zvYwT_TcS1YZ9IiR0OQoE-KZEWDs)
+
+• Libraries
+
+* [React Bootstrap (CSS Framework)](https://react-bootstrap.netlify.app/)
+* [Formik (Form Validation)](https://formik.org/)
+* [SWR - stale-while-revalidate (React Hooks for Data Fetching)](https://swr.vercel.app/docs/getting-started)
+
+• Markdown Templates
 
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)

@@ -1,4 +1,4 @@
-# Project Title
+# Capstone Project
 
 IT Helpdesk Inventory and Ticketing System
 
@@ -87,11 +87,11 @@ This project is licensed under the [MIT License](LICENSE.md) - see the LICENSE.m
 Inspiration, code snippets, and resources:
 
 • MERN Stack reference
+  
 * [MongoDB CheatSheet](https://www.mongodb.com/developer/products/mongodb/cheat-sheet/?fbclid=IwAR0Ct6vRHBkyI4ETeACmP88hAvl2AHCTZAOuOlE0T6HBIPixmNF6pfZNIUw)
 * [w3schools MongoDB](https://www.w3schools.com/mongodb/index.php)
-  
-// Insert ExpressJS here
-* [React](https://react.dev/)
+* [Express.js](https://expressjs.com/en/starter/installing.html)
+* [React.js](https://react.dev/)
 * [w3schools React.js](https://www.w3schools.com/react/default.asp)
 * [Node.js](https://nodejs.org/en/docs)
 * [w3schools Node.js](https://www.w3schools.com/nodejs/default.asp)
@@ -104,8 +104,14 @@ Inspiration, code snippets, and resources:
 
 * [React Bootstrap (CSS Framework)](https://react-bootstrap.netlify.app/)
 * [Formik (Form Validation)](https://formik.org/)
-* [SWR - stale-while-revalidate (React Hooks for Data Fetching)](https://swr.vercel.app/docs/getting-started)
+* [SWR - stale-while-revalidate (React Hooks for API calls)](https://swr.vercel.app/docs/getting-started)
 
+• Roadmaps
+
+* [MongoDB roadmap](https://roadmap.sh/mongodb)
+  
+* [React roadmap](https://roadmap.sh/react)
+  
 • Markdown Templates
 
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
@@ -113,7 +119,6 @@ Inspiration, code snippets, and resources:
 * [dbader](https://github.com/dbader/readme-template)
 * [zenorocha](https://gist.github.com/zenorocha/4526327)
 * [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
-
 
 ## Note
 

@@ -1,5 +1,6 @@
 import { Button, Form, Container, Card } from "react-bootstrap";
-import { useState } from "react";
+import { FaSignInAlt } from "react-icons/fa";
+import { useState, useEffect } from "react";
 
 const Login = () => {
   // SHOW/HIDE PASSWORD FUNCTIONALITY
@@ -10,43 +11,62 @@ const Login = () => {
     setShowPassword(!showPassword);
   };
 
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+  });
+
+  const { email, password } = formData;
+
+  const onChange = () => {
+    setFormData((prevState) => ({
+      ...prevState,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <>
-      <Container>
-        <Card>
-          <Card.Header>Sign In</Card.Header>
-          <Card.Body>
-            <Form>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Username</Form.Label>
-                <Form.Control
-                  type="text"
-                  name="username"
-                  id="username"
-                  placeholder="Enter your username"
-                  required
-                />
-                <Form.Label>Password</Form.Label>
-                <Form.Control
-                  type={showPassword ? "text" : "password"}
-                  name="password"
-                  id="password"
-                  placeholder="Enter your password"
-                  required
-                />
-              </Form.Group>
-              <Form.Check
-                type="checkbox"
-                label="Show Password"
-                onChange={togglePasswordVisibility}
-              />
-            </Form>
-            <Button variant="primary" type="submit">
-              Login
-            </Button>
-          </Card.Body>
-        </Card>
-      </Container>
+      <section className="heading">
+        <FaSignInAlt /> Sign In
+      </section>
+
+      <section className="form">
+        <form onSubmit={onSubmit}>
+          <div className="form-group">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              className="form-control"
+              onChange={onChange}
+              required
+            />
+            <input
+              type={showPassword ? "text" : "password"}
+              name="password"
+              id="password"
+              placeholder="Enter your password"
+              className="form-control"
+              onChange={onChange}
+              required
+            />
+          </div>
+        </form>
+        <Form.Check
+          type="checkbox"
+          label="Show Password"
+          onChange={togglePasswordVisibility}
+        />
+        <button type="submit" className="btn btn-block">
+          Login
+        </button>
+      </section>
     </>
   );
 };
